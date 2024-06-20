@@ -302,7 +302,7 @@ def superuser():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "71".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/Xylon-404/Approved/blob/main/Approved.txt").text
+    DARK=requests.get("https://github.com/Aayush670/D/blob/main/Approval").text
     if id in DARK:
         os.system('clear')
         print(logo)
